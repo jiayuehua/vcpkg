@@ -1,11 +1,8 @@
-set(LIBPOPT_VERSION 1.16)
-set(LIBPOPT_HASH bae2dd4e5d682ef023fdc77ae60c4aad01a3a576d45af9d78d22490c11e410e60edda37ede171920746d4ae0d5de3c060d15cecfd41ba75b727a811be828d694)
-
 vcpkg_download_distfile(ARCHIVE
     URLS
-        "https://ftp.openbsd.org/pub/OpenBSD/distfiles/popt-${LIBPOPT_VERSION}.tar.gz"
-    FILENAME "popt-${LIBPOPT_VERSION}.tar.gz"
-    SHA512 ${LIBPOPT_HASH}
+        "https://ftp.openbsd.org/pub/OpenBSD/distfiles/popt-${VERSION}.tar.gz"
+    FILENAME "popt-${VERSION}.tar.gz"
+    SHA512 0
 )
 
 vcpkg_extract_source_archive(
