@@ -4785,8 +4785,8 @@
       "port-version": 0
     },
     "libpopt": {
-      "baseline": "1.16",
-      "port-version": 16
+      "baseline": "1.19",
+      "port-version": 0
     },
     "libpq": {
       "baseline": "16.2",
