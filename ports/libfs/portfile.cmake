@@ -8,7 +8,7 @@ vcpkg_from_gitlab(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO lib/libfs
     REF "libFS-${VERSION}"
-    SHA512 8d21f82fb335b3ff2f09875a118e90ab1425ce3456ee5d9cbd319491c8def5b8318860d427e1bbb74eae8fbc8f6f199375d4765b2e409ea91a82ecb852a7bab4
+    SHA512 0
     HEAD_REF master
 ) 
 
