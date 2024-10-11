@@ -3,7 +3,7 @@ vcpkg_from_gitlab(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO GNOME/libadwaita
     REF "${VERSION}"
-    SHA512 5cea6396bab3439fb3ddef95fe86bc84955ce1eb426fc5dd323329eeab8a51e10de5f4d9c45380f905ceea43e094362a577a67386a3ddcefff362af030c8c7e3
+    SHA512 0
     HEAD_REF main
     PATCHES
 )
