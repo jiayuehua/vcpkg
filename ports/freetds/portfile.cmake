@@ -1,9 +1,9 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO freetds/freetds
-    REF v1.3.10
+    REF "v${VERSION}"
     HEAD_REF master
-    SHA512 78b494c04e3436bfdc4997e6f0196baef27246bb7ad825c487a16f247d13c99324a39d52bfe8f5306164ae3f5c7eb43ca83944b24a3ce6b4bcd733849b4064ad
+    SHA512 09f526828ab5c57c9ccab62a43242d0e0d7b81e42194d27ba3f6c89d67b9b6aad375f852a4a8e4aac7b437c507cd3ca6f04933da7bf4cb2d8c2166dddf6fa0e2
     PATCHES
         disable-tests.patch
 )
