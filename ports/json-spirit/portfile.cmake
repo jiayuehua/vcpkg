@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO png85/json_spirit
-    REF 5e16cca59b31d8beda0f07e3917ce11dcd43b3db
-    SHA512 6ac0f15726391c9003e516213535c8d30e98b6c33bca0b03e9bf38e7085824bfc6cfaab267b1dfccbfcc567638d26f722d7e331f4e3b60d3acd5c717cb1fafcc
+    REF "json_spirit-${VERSION}"
+    SHA512 94e410e046d0b53fd6e70cefec0e56581fe406dba6f74ce353f5e6ead68d06ff9feab5ff86cb02d2bd8e2e64a20971f1b18c00d7f209d09d0dc0606f2beb9da5
     HEAD_REF master
     PATCHES
         dll-wins.patch
